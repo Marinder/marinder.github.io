@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://evening-garden-53235.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+  const apiRoot = 'https://evening-garden-53235.herokuapp.com/v1/task';
+  const trelloApiRoot = 'https://evening-garden-53235.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
